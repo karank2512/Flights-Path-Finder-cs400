@@ -1,0 +1,10 @@
+graph flights {
+    "ORD" -- "RNO" [miles=1671];
+    "ORD" -- "ATL" [miles=1993];
+    "ATL" -- "DTW" [miles=1903];
+    "RNO" -- "PIT" [miles=2081];
+    "RNO" -- "DTW" [miles=113];
+    "DTW" -- "PIT" [miles=415];
+    "DTW" -- "SMF" [miles=390];
+    "SMF" -- "SNA" [miles=787];
+}
